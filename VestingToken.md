@@ -189,7 +189,37 @@ If you don't have it, go to 'My Contracts' tab and copy the address of the `spli
 For the Duration field, our smart input can help again. Click on the input field and the smart input will open. As per the requirements, we'll set the 
 founder vesting to two years.
 
-
 Once you filled it out, click Create Deployment Request and deploy the contract like the others. Repeat this process for Presale and Seed Sale holders.
 Public holders don't have vesting, so you don't have to do it for them.
+
+Once you're done with everything, your contracts tab should look like this:
+
+<img width="1134" alt="Screenshot 2022-12-18 at 16 50 23" src="https://user-images.githubusercontent.com/42938691/208307330-75b7f759-f497-4b1e-8bbb-b347ca5eed19.png">
+
+### Transfering Tokens to Vesting Contracts
+
+In order for our vesting contracts to work, we must transfer tokens from our address to the vesting contracts. We can do this in the Dashboard 
+very easily. 
+
+Go to 'My Contracts' tab and click on the token contract. You should see a contract management screen:
+
+<img width="1051" alt="Screenshot 2022-12-18 at 16 53 24" src="https://user-images.githubusercontent.com/42938691/208307425-dbaf1f60-1e89-4685-a8ce-99126c86b803.png">
+
+Find the 'Transfer tokens' function and then perform the transfers to the Founder Vesting, Seed Vesting, Presale Vesting & Public Splitter 
+per the distribution from our scenario (20%, 30%, 30%, 20%). You can get the vesting contract addresses by copying them from the contracts on the 
+My Contracts tab.
+
+<img width="1026" alt="Screenshot 2022-12-18 at 16 57 57" src="https://user-images.githubusercontent.com/42938691/208307587-558342e9-a5b2-4455-8cea-fe74251281d2.png">
+
+Example of transfering to the Founder Vesting contract is on the screenshot above.
+
+Click 'Create Request' and then click 'Open Transaction Link'. On the screen that opens, click 'Confirm Transaction'.
+
+
+<img width="529" alt="Screenshot 2022-12-18 at 16 59 04" src="https://user-images.githubusercontent.com/42938691/208307633-aa43b80f-74a2-4f6e-9557-3ac2502d2c99.png">
+
+Transfer your tokens to all the vesting contract and the public paymentsplitter contract.
+
+## Building the Claiming Portal
+
 
